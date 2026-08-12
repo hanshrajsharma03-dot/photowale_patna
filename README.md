@@ -1,1 +1,148 @@
-# photowale_patna
+# photowale_patna<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Photowale_patna - photography and films." />
+<title>Photowale_patna | Photography & Films</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="site-shell">
+<header class="site-header" id="top">
+<a class="brand" href="#top" aria-label="Photowale_Patna home">
+<span class="brand-mark">P</span>
+<span>PHOTOWALE_PATNA <em>&amp;</em> AHR STUDIO</span>
+</a>
+<button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<nav class="site-nav" aria-label="Main navigation">
+<a href="#about">About</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#packages">Packages</a>
+<a href="#contact" class="nav-cta">Book a session</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy reveal">
+<p class="eyebrow">Photography &amp; films - based in your city</p>
+<h1>Beautifully told,<br /><i>forever felt.</i></h1>
+<p class="hero-text">Warm, candid photography for weddings, celebrations, and the quiet moments in
+between.</p>
+<div class="hero-actions">
+<a class="button button-primary"
+href=https://drive.google.com/drive/folders/1Nb86DZXTgxJ1RbxbdHOa0wAk-cVBlAZo?usp=sharing
+target="_blank">
+View Gallery
+</a>
+<a class="button button-primary" href="#portfolio">View portfolio <span>&rarr;</span></a>
+<a class="text-link" href="#contact">Check availability</a>
+</div>
+</div>
+<div class="hero-art reveal">
+<div class="hero-shape"></div>
+<img src= mai.png
+alt="Couple embracing outdoors" />
+<div class="hero-note"><strong>Since 2010</strong><br />Stories made tangible</div>
+</div>
+</section>
+<section class="intro section-pad" id="about">
+<p class="eyebrow">The feeling comes first</p>
+<div class="intro-grid">
+<h2>Photographs with a pulse.</h2>
+<div>
+<p>We make room for real moments: the nervous laughter, the tearful hugs, and the perfectly imperfect dance
+floor. Your gallery should feel like you.</p>
+<a class="text-link" href="#contact">Meet your photographer <span>&rarr;</span></a>
+</div>
+</div>
+</section>
+<section class="portfolio section-pad" id="portfolio">
+<div class="section-heading">
+<div>
+<p class="eyebrow">Selected stories</p>
+<h2>Made with heart.</h2>
+</div>
+<a class="text-link" href="#contact">Request full gallery <span>&rarr;</span></a>
+</div>
+<div class="gallery-grid">
+<article class="gallery-card gallery-card-large">
+ <img src="tanvi birthday.png" alt="12x36 Album">
+<div class="gallery-caption"><span>  BIRTHDAY</span><h3>TANVI</h3></div>
+</article>
+<article class="gallery-card">
+<img src="Untitled design.png" alt="12x36 Album">
+<div class="gallery-caption"><span>Celebrations</span><h3>MOMENTS</h3></div>
+</article>
+<article class="gallery-card">
+ <img src=1.png alt="12x36 Album">
+<div class="gallery-caption"><span>Couples</span><h3>Golden hour</h3></div>
+</article>
+</div>
+</section>
+<section class="quote-band">
+<blockquote>Every frame should bring you back to how it felt.</blockquote>
+</section>
+<section class="packages section-pad" id="packages">
+<p class="eyebrow">Simple packages</p>
+<div class="section-heading">
+<h2>Find your fit.</h2>
+<p class="section-copy">Every collection includes thoughtful planning, hand-edited high-resolution photos, and
+a private online gallery.</p>
+</div>
+<div class="package-grid">
+<article class="package-card"><p class="package-number">01</p><h3>Portrait</h3><p class="price">From Rs. 8,000</p>
+<ul><li>1 hour session</li><li>30 edited photos</li><li>Online gallery</li></ul>
+<a href="#contact" class="text-link">Ask about portraits <span>&rarr;</span></a>
+</article>
+<article class="package-card featured">
+<p class="package-number">02</p><h3>Celebration</h3><p class="price">From Rs. 18,000</p>
+<ul><li>Up to 4 hours</li><li>150 edited photos</li><li>Highlight reel</li></ul>
+<a href="#contact" class="text-link">Ask about events <span>&rarr;</span></a>
+</article>
+<article class="package-card">
+<p class="package-number">03</p><h3>Wedding</h3><p class="price">Custom quote</p>
+<ul><li>Full-day coverage</li><li>Two photographers</li><li>Fine-art album</li></ul>
+<a href="#contact" class="text-link">Ask about weddings <span>&rarr;</span></a>
+</article>
+</div>
+</section>
+<section> 
+    <img src="AHR STUDIO.jpg" alt="12x36 Album">
+</section>
+<div class="AHR STUDIO>
+<p class="eyebrow"></p>
+<p class="editer-name"> </p>
+</div>
+</section>
+<section class="contact section-pad" id="contact">
+<div class="contact-copy">
+<p class="eyebrow">Let's make something memorable</p>
+<h2>Ready when you are.</h2>
+<p>Tell us a little about your day and we will reply within two working days.</p>
+<a class="contact-detail" href="mailto:hanshrajsharma03@gmail.com">hanshrajsharma03@gmail.com</a>
+<a class="contact-detail" href="tel:+917856910289">+91+ 7856910289</a>
+</div>
+<form class="contact-form" id="contact-form">
+<label>Your name<input name="name" type="text" placeholder="Your name" required /></label>
+<label>Email address<input name="email" type="email" placeholder="you@example.com" required /></label>
+<label>I'm interested in<select name="service"><option>Wedding photography</option><option>Birthday or
+event</option><option>Portrait session</option><option>Other</option></select></label>
+<label>Tell us about it<textarea name="message" rows="4" placeholder="Date, location, and anything else you
+would love to share"></textarea></label>
+<button class="button button-primary" type="submit">Send inquiry <span>&rarr;</span></button>
+<p class="form-message" id="form-message" aria-live="polite"></p>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<a class="brand" href="#top"><span class="brand-mark">P</span><span>Photowale_Patna <em>&amp;</em> AHR STUDIO</span></a>
+<p>Photography with feeling. &copy; <span id="year"></span> Photowale_Patna &amp; AHR STUDIO.</p><div class="footer-links"><a href="https://www.instagram.com/photowale_patna?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a><a href="#contact">WhatsApp</a></div>
+</footer>
+</div>
+<button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
